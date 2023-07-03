@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+background-image: url(background.jpg);
+background-size: cover;
+}
+/* Contenitore dove inseriremo tutto il testo  */
+.container{
+   background-color: rgba(0, 0, 0, 0.62);
+   margin: auto;
+   width: 1200px;
+   margin-top: 6px;
+   height: 850px;
+   border-radius: 20px;
+   margin-top: 5px;
+    
+}
+.logo{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    
+}
+h1{
+    text-align: center;
+    color: #00dd00;
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    
+}
+nav{
+    background-color: #00dd00;
+    width: 900px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-bottom: 20px;
+     
+}
+
+/* sito consultato https://www.freecodecamp.org/italian/news/centrare-con-css/ 
+    cosultando anche gli appunti della boolean coding week*/
+.pulsanti{
+    
+    display: flex;
+    justify-content: center;
+    /* centrare verticalmente */
+    position: absolute;
+    top: 2%;
+    left:35%;
+    
+} 
+/* sito consultato https://www.w3schools.com/howto/howto_css_outline_buttons.asp */
+.btn{
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 5px 2px;
+}
+
+
+/* questo inline block ci permette di avere la checkbox e il testop di h2 sulla stessa riga */
+section > h2 {
+    display:inline-block;
+} 
+section {
+    color: white;
+}
+h3{
+    font-weight: 400;
+}
+/* Simbolo freccia */
+h3:before{
+    content: "\27FC";
+} 
+.batteria.media{
+    width: 300px;
+    height: 25px;
+    background-color: #f5b453;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.batteria.alta{
+    width: 550px;
+    height: 25px;
+    background-color:#1ec31e;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.batteria.bassa{
+    width: 150px;
+    height: 25px;
+    background-color: #be4141;
+    border-radius: 5px;
+    margin-bottom: 30px;
+} 
+
+
